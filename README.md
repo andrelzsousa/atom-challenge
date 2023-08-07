@@ -1,6 +1,6 @@
 # atom-challenge
 Desafio de Estágio: Desenvolvimento Front-End
-Bem-vindo ao Desafio de Estágio de Desenvolvimento Front-End! Este repositório contém todos os recursos necessários para completar o desafio e demonstrar suas habilidades em HTML, CSS e TypeScript.
+Bem-vindo ao Desafio de Estágio de Desenvolvimento Front-End! Este repositório contém todos os recursos necessários para completar o desafio e demonstrar suas habilidades em HTML, CSS e TypeScript. Sinta-se livre para utilizar Styled Components ou TailwindCSS.
 
 O Desafio:
 
