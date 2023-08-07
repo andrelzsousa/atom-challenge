@@ -1,8 +1,7 @@
-# atom-challenge
-Desafio de Estágio: Desenvolvimento Front-End
+# Desafio de Estágio: Desenvolvimento Front-End
 Bem-vindo ao Desafio de Estágio de Desenvolvimento Front-End! Este repositório contém todos os recursos necessários para completar o desafio e demonstrar suas habilidades em HTML, CSS e TypeScript. Sinta-se livre para utilizar Styled Components ou TailwindCSS.
 
-O Desafio:
+# O Desafio:
 
 Neste desafio, convidamos você a embarcar em uma jornada de desenvolvimento que combina CSS, HTML e TypeScript para criar uma página da web que seja não apenas funcional, mas também visualmente impressionante. Queremos que você demonstre suas habilidades em:
 
@@ -12,7 +11,7 @@ Neste desafio, convidamos você a embarcar em uma jornada de desenvolvimento que
 
 3. Interatividade com TypeScript: Use TypeScript para adicionar um toque interativo à página. Isso pode incluir animações suaves ou qualquer outra ideia que você considere interessante.
 
-O Que Avaliaremos:
+# O Que Avaliaremos:
 
 - Sua abordagem ao design e layout.
 - Uso adequado de propriedades CSS para estilização.
