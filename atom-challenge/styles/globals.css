@@ -1,21 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 @layer base {
-  html {
-    font-family: 'Poppins', sans-serif;
-  }
+    html {
+        font-family: 'Poppins', sans-serif;
+    }
 }
 
-
-:root{
-  --primary-purple: #290742;
-  --secondary-purple: #9E6DC2;
-  --input: #170027;
-  --hover: #B98DEF;
-  --primary-white: #FBF6FF;
-  --primary-green: #4FFF4B;
-
+:root {
+    --primary-purple: #290742;
+    --secondary-purple: #9e6dc2;
+    --input: #170027;
+    --hover: #b98def;
+    --separator: #f2e7fa;
+    --primary-white: #fbf6ff;
+    --primary-green: #4fff4b;
 }

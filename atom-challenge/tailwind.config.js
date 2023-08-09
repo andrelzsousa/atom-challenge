@@ -22,7 +22,8 @@ module.exports = {
           purple: 'var(--secondary-purple)',
         },
         input: 'var(--input)',
-        hover: 'var(--hover)'
+        hover: 'var(--hover)',
+        separator: 'var(--separator)'
       }
     },
   },

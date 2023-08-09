@@ -1,14 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
-import styles from '@/styles/Home.module.css';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import MainSection from '@/components/MainSection';
 import Posts from '@/components/Posts';
-import Separator from '@/components/Separator';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
     return (
@@ -29,8 +23,6 @@ export default function Home() {
             <div className="bg-primary-purple">
                 <Header />
                 <Hero />
-                <Separator size={6} color='primary-green'/>
-
             </div>
 
             <div className="bg-primary-white">

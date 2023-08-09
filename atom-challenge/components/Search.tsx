@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
 interface SearchProps {
-    className: string
+    className: string;
 }
 
-export default function Search({className}:SearchProps) {
+export default function Search({ className }: SearchProps) {
     return (
         <form
             className={`${className} items-center rounded overflow-hidden`}

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Separator from './Separator';
+import MainPost from './MainPost';
 
 export default function MainSection() {
     return (
@@ -23,41 +23,28 @@ export default function MainSection() {
                     adipiscing neque. Sed volutpat aenean sit vitae, sed
                     tristique. Sed volutpat aenean.
                 </p>
-                <Separator
-                    size={1}
-                    hex="#F2E7FA"
-                    className="my-6 lg:hidden block"
-                />
+
+                <div className="h-[1px] bg-separator my-6 lg:hidden block"></div>
             </div>
 
             <div>
-                <p>Janeiro 04, 2022</p>
-                <h2 className="text-primary-purple text-2xl font-bold my-2 hover:text-secondary-purple transition-colors">
-                    <a href="#">
-                        Conheça as principais técnicas para conseguir uma vaga
-                        internacional em programação
-                    </a>
-                </h2>
-                <p>
+                <MainPost
+                    title="Conheça as principais técnicas para conseguir uma vaga
+                        internacional em programação"
+                >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat
                     aenean sit vitae, sed tristique.
-                </p>
-                <Separator size={1} hex="#F2E7FA" className="my-6" />
+                </MainPost>
 
-                <p>Janeiro 04, 2022</p>
-                <h2 className="text-primary-purple text-2xl font-bold my-2 hover:text-secondary-purple transition-colors">
-                    <a href="#">Veja a evolução do Front-end na prática</a>
-                </h2>
-                <p>
+                <div className="h-[1px] bg-separator my-6"></div>
+
+                <MainPost title="Veja a evolução do Front-end na prática">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nibh nibh eu in aliquet ut adipiscing neque.
-                </p>
-                <Separator
-                    size={1}
-                    hex="#F2E7FA"
-                    className="mt-6 lg:hidden block"
-                />
+                </MainPost>
+
+                <div className="h-[1px] bg-separator mt-6 lg:hidden block"></div>
             </div>
         </main>
     );

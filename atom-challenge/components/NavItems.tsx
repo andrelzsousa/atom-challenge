@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Separator from './Separator';
 
 export default function NavItems() {
     return (

@@ -8,7 +8,6 @@ import Search from './Search';
 
 export default function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const [isSearchOpen, setIsSearchOpen] = useState(false);
 
     return (
         <header className="bg-primary-purple max-w-[1168px] w-full mx-auto px-10 md:py-[68px] py-12 flex items-center justify-between">
@@ -47,7 +46,7 @@ export default function Header() {
                         className="absolute top-4 right-4 text-3xl text-secondary-purple"
                         onClick={() => setIsMobileMenuOpen(false)}
                     >
-                        <CloseIcon fontSize='large' />
+                        <CloseIcon fontSize="large" />
                     </button>
                 </div>
             )}
